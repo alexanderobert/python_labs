@@ -26,13 +26,6 @@ def field(items, *args):
                     new[el] = item[el]
             yield new
 
-
-
-    # Необходимо реализовать генератор
-
-    #if len()
-
-
 # Генератор списка случайных чисел
 # Пример:
 # gen_random(1, 3, 5) должен выдать примерно 2, 2, 3, 2, 1
@@ -41,8 +34,6 @@ def gen_random(begin, end, num_count):
     for i in range(num_count):
         yield random.randint(begin, end)
     pass
-    # Необходимо реализовать генератор
-
 
 
 
